@@ -57,8 +57,8 @@ BLOK İLE ÇARPIŞMA DURUMUNDA ÇARPIŞMA ANIMASYONU OYNATMA VE ÇARPIŞMA SESİ
   # SES KONTOL VE TANIMLAMALARI<br/>
   3 ses mevcut <br/>
   **1** arka plan source : player camerasına ses verildi, sürekli oynamasını istediğimiz için loop aktif yapıldı .<br/>
-  Her sahnede arka plan ses çalması için Awake fonk içerisinde  backSourceSC içerisine ` DontDestroyOnLoad(this.gameObject); ` ile sahne yüklenmelerinde sesin silinmesini engellendi.<br/>
- Sahne geçişlerinde aynı sahne birden fazla kez ziyaret edildiginde iki ses in oluşması oldu bu sorunu backSourceSC  null değilse ile destroy et şeklinde düzenlendi. <br/>
+  Her sahnede arka plan ses çalması için backSourceSC içerisine Awake fonk içerisinde   ` DontDestroyOnLoad(this.gameObject); ` ile sahne yüklenmelerinde sesin silinmesini engellendi.<br/>
+ Sahne geçişlerinde aynı sahne birden fazla kez ziyaret edildiginde iki ses in oluşması sorunu ile karşışatım  bu sorunu backSourceSC  null değilse  destroy et şeklinde düzenlendi. <br/>
   **2** blok çaprışma sırasında çarpışma sesi bang_anim içerisinde kontorlu sağlandı. <br/> 
   **3** top toplama durumunda trik sesi (success) 
   PlayerCollisionControl içerisinde bang ve success seslerinin oynatılması yapıldı.
