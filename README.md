@@ -102,8 +102,8 @@ Kayıttan çekmek içinde aynı fonk un tek parametreli GetInt verisyonunu kulla
   Get ile çektiğim veri bir int değişken ama atamak istediğim yer bir string burada int değeri toString ile string değişkene dönüşüm yapıldı. 
   
   <br/> <br/> 
-   **Bu readme de  kendi yaptığım çalışmalardan bahsettim . Oyuna ait diğer bilgilere ekip arkaşımın reposundan ulaşabilirsiniz.**
-   [irem atak repo](https://github.com/irematak/unity_3d_platform_oyunu-)
+   **Bu readme de  kendi yaptığım çalışmalardan bahsettim .** 
+
          
          
 
