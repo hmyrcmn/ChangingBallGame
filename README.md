@@ -44,14 +44,17 @@ asekron sahne yönlendirmesi için  SceneManager dan  LoadSceneAsync fonksiyonun
   # ANIMASYON KONTORLLERI <br/>
   3 animasyon var <br/>
  **1** default animasyon sürekli oynamasını istediğimiz light animasyonu : loop aktif. üç farklı renkdeki ışık sprite ı loop a alınarak oluşturuldu  <br/>
+ 
   **2** bang anim blok çarpışma animasyonu : default state ile baglantısı bang true durumunda oynaması üzerine tasarladı loop deaktif edildi. toz efekti veren bir animasyon <br/>
   **3** succes toplarla eşleşmesi durumunda oynayan animasyon olarak tanımlandı : loop deaktif . fireworks şeklinde kutlama anımsyonu . <br/>
   **bang_anim sc**: 
 BLOK İLE ÇARPIŞMA DURUMUNDA ÇARPIŞMA ANIMASYONU OYNATMA VE ÇARPIŞMA SESİNİN  OLUŞTURULMASI<br/>
 `OnCollisionEnter` içerisinde blok teması kontrol edildi.
-  my_bang_anim.SetBool("bang_true",true)  ile çarpışma animasyonu oynatıldı .  
+  my_bang_anim.SetBool("bang_true",true)  ile çarpışma animasyonu oynatıldı animasyon geçiş değiskeni setlendi. ardından play ile animasyon oynatıldı .  
   my_bang_source.Play();  ile çarpışma sesi oynatıldı.
-  `OnCollisionExit`  içerisinde blok temsının bitiminde my_bang_anim.SetBool("bang_true",false) ile animasyon sonlandırıldı .
+  
+  
+  `OnCollisionExit`  içerisinde blok temasının bitiminde my_bang_anim.SetBool("bang_true",false) ile animasyon geçiş kontrol değiskeni false yapılarak  sonlandırıldı .
   
   
   # SES KONTOL VE TANIMLAMALARI<br/>
@@ -64,6 +67,7 @@ BLOK İLE ÇARPIŞMA DURUMUNDA ÇARPIŞMA ANIMASYONU OYNATMA VE ÇARPIŞMA SESİ
   PlayerCollisionControl içerisinde bang ve success seslerinin oynatılması yapıldı.
   PlayAudioClip parametre olarak aldıgı ses dosyasını  audioSource.Play(); ile oynatıyor. Bu fonk un çagrılması;
   OnCollisionEnter ile temas edilen obje kontrolu yapıldı ve oynatıcı fonksiyona ilgili ses dosyası parametre olarak verilerek oynatılması sağlandı.
+  
   
   # LEVEL1 den  LEVEL2 SAHNE GEÇİŞİ İÇİN 
   ![level1](https://cdn-images-1.medium.com/max/900/1*Tk8YvrREy7hJPDsxeHF9pg.png)
