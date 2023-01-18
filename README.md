@@ -1,11 +1,11 @@
 # ChangingBallGame
 update degisen top game : added animation, music etc aprowed uı .
+ANIMASYON VE SES EKLENTİSİ İLE GELİŞTİRİLMİŞ GÖRSEL ARABİRİM . 
 Changing ball game enriched with animation and sound files, a unity project that takes the color of the collected balls and ends when the life is lost if the ball is matched with the same color ball.<br/>
 
 # OYUNA ERİŞİM
 <br/>**: [ChangingBallGame OYNA](https://simmer.io/@humeyracimen/changing-ball-game)**
 
-ANIMASYON VESES EKLENTİSİ GELİŞTİRİLMİŞ GÖRSEL ARABİRİM . 
 
 # OYUN AKIŞ 
 ANA MENU ilk karşılama ekranı kayıtlı oyun yok (ilk kez oynanıyor) devam buttonu deaktif . Yeni oyun button  ile level1 sahnesine geçiş . 20 puan toplandıkdan sonra level2 ye (asekron ) geçiş . level2 de oyun bitince ana menu ye asekron  geçiş  . level1 veya level2 de ara menu ile oyun ekranından çıkılması durumunda ana menude devam buttonu ile toplanılan puandan devam edilir. Yeni oyun seçilirse puan sıfırlanır. 
