@@ -4,7 +4,7 @@ ANIMASYON VE SES EKLENTİSİ İLE GELİŞTİRİLMİŞ GÖRSEL ARABİRİM .
 Changing ball game enriched with animation and sound files, a unity project that takes the color of the collected balls and ends when the life is lost if the ball is matched with the same color ball.<br/>
 
 # OYUNA ERİŞİM
-<br/>**: [ChangingBallGame OYNA](https://simmer.io/@humeyracimen/changing-ball-game)**
+<br/>**SIMMER.io oynama bağlantısı : [ChangingBallGame OYNA](https://simmer.io/@humeyracimen/changing-ball-game)**
 
 
 # OYUN AKIŞ 
